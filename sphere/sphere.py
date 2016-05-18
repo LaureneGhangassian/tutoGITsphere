@@ -7,14 +7,14 @@ class Sphere(object):
         # uncomment the following line
         self.radius = radius
 
-    # *** STEP 2 ***
-    # uncomment the 2 following lines
-    #def __str__(self):
-        #return '%s(%s)' % (self.__class__.__name__, self.radius)
+     *** STEP 2 ***
+    uncomment the 2 following lines
+    def __str__(self):
+        return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
-        # *** STEP 3 ***
-        # uncomment the following line
+         *** STEP 3 ***
+         uncomment the following line
         return 4.0 * 3.1416 * self.radius ** 2
 
     def volume(self):
